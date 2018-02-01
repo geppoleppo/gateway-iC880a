@@ -1,0 +1,12 @@
+[Unit]
+Description=Bluetentacles Gateway
+
+[Service]
+WorkingDirectory=/opt/bluetentacles-gateway/bin/
+ExecStart=/opt/bluetentacles-gateway/bin/start.sh
+SyslogIdentifier=bluetentacles-gateway
+Restart=on-failure
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
