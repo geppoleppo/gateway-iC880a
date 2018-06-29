@@ -69,7 +69,8 @@ if [[ $NEW_HOSTNAME != $CURRENT_HOSTNAME ]]; then
 fi
 
 # Install LoRaWAN packet forwarder repositories
-INSTALL_DIR="/opt/bluetentacles-gateway"
+#INSTALL_DIR="/opt/bluetentacles-gateway"
+INSTALL_DIR="./bluetentacles_radice"
 if [ ! -d "$INSTALL_DIR" ]; then mkdir $INSTALL_DIR; fi
 pushd $INSTALL_DIR
 
