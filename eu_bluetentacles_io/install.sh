@@ -70,7 +70,7 @@ fi
 
 # Install LoRaWAN packet forwarder repositories
 #INSTALL_DIR="/opt/bluetentacles-gateway"
-INSTALL_DIR="./opt/bluetentacles/"
+INSTALL_DIR="/opt/bluetentacles/"
 if [ ! -d "$INSTALL_DIR" ]; then mkdir $INSTALL_DIR; fi
 pushd $INSTALL_DIR
 
