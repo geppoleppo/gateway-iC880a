@@ -199,11 +199,11 @@
 		}
 	},
 	"gateway_conf": {
-		"server_address": "52.15.220.166",
+		"server_address": "lora.smartwat.it",
 		"serv_port_up": 1700,
 		"serv_port_down": 1700,
 		"servers": [ {
-			"server_address": "52.15.220.166",
+			"server_address": "lora.smartwat.it",
 			"serv_port_up": 1700,
 			"serv_port_down": 1700,
 			"serv_enabled": true
